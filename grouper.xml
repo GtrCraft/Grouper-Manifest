@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- device trees -->
+  <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="cm" revision="cm-12.1" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="cm" revision="cm-12.1" />
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-12.1" />
+<!-- N7 blobs -->
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-12.1" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-12.1" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-12.1" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-12.1" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-12.1" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-12.1" />
+</manifest>
